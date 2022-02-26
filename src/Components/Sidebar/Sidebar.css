@@ -1,0 +1,25 @@
+.sidebar{
+  
+    height: calc(100vh-4rem);
+    background-color: #f6f6f6;
+    
+
+}
+.sidebar-container{
+    padding: 1rem;
+   
+   width: 0;
+    transform: translateX(-300px);
+    transition: all 300ms ease-in;
+    
+}
+.open{
+  transform: none;
+  width: 100%;
+}
+.sidebar-container a{
+  text-decoration: none;
+    
+}
+
+ 
